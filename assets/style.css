@@ -1,0 +1,102 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  font-family: sans-serif;
+  background-color: #1f1938;
+  color: white;
+}
+
+button {
+  border: none;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  border-bottom: 1px solid wheat;
+  margin-top: 10px;
+}
+
+.adicionar-tarefa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: #d3d3d3;
+  margin: 10px;
+  padding-left: 5px;
+  border-radius: 5px;
+}
+
+.entrada {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+}
+
+.bi-plus {
+  font-size: 40px;
+  background-color: blueviolet;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0% auto;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 3px;
+  height: 30px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row nowrap;
+  width: 100%;
+  height: 30px;
+  align-items: center;
+  box-shadow: 0 0 20px #9b9999;
+  margin-bottom: 2%;
+}
+
+.lista-checkbox {
+  width: 6%;
+}
+
+.lista-descricao {
+  width: 82%;
+}
+
+.lista-lixeira {
+  width: 10%;
+  background-color: red;
+  height: auto;
+  padding: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
