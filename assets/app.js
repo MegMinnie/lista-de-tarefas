@@ -10,6 +10,8 @@ botaoAdicionar.addEventListener("click", function () {
     let novaTarefa = document.createElement("div");
     novaTarefa.classList.add("lista");
 
+ 
+
     novaTarefa.innerHTML = `
       <div class="lista-checkbox">
         <input type="checkbox" />
@@ -20,6 +22,10 @@ botaoAdicionar.addEventListener("click", function () {
       </div>
     `;
 
+    main.appendChild(novaTarefa);
+
+
+    entrada.value = "";
     console.log("botao adicionado");
   }
 });
