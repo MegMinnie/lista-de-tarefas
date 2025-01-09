@@ -21,7 +21,7 @@
 "_blank">clique aqui</a></p>
 
 ## Screenshots
-![tela ](assets/fotos/tela.png)
+![tela ](assets/tela.png)
 
 </div>
 
